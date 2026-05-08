@@ -1,0 +1,53 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+    flex-direction: row;
+    flex-direction: column;
+
+    /*  if row ke jagah colomn kare to element ki 
+    height badgi  */
+
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+
+}
+
+#Orange {
+    align-self: flex-start;
+    flex-basis: 50px;
+
+    /* Notice krna html me hamne orange ki heoght 200px di hai par abhi iski height abhi 50px hia coz
+    flex-dirn column hai or misme main axis upar se nichhe isliyie flex basis me elememt ka height badlega isl height 50 px hai
+    CSS ka code ka value jyada hai over html */
+
+}
+
+#blue {
+
+    flex-basis: 500px;
+
+
+    /* same orange wala reason */
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+}

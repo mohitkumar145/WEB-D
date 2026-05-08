@@ -1,0 +1,56 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+
+/* Code  no 1 */
+
+@media (width:400px) {
+    h1 {
+        background-color: green;
+
+    }
+
+    div {
+        height: 200px;
+        width: 200px;
+        background-color: skyblue;
+
+    }
+
+}
+
+
+/* Code NO 2 */
+
+
+@media (min-width: 500px) {
+    h1{
+
+        background-color: greenyellow;
+    }
+    
+}
+
+
+@media (max-width: 400px) {
+    h1{
+
+        background-color: rosybrown;
+    }
+    
+}
+
+
+/* Code No 3 */
+
+
+@media (min-width: 500px) and (max-width: 600px) {
+    h1{
+
+        background-color: magenta;
+    }
+    
+}
+

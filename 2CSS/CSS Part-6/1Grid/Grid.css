@@ -1,0 +1,20 @@
+.Container {
+  width: 600px;
+  height: 516px;
+  background-color: azure;
+  display: flex;
+  display: grid;
+
+
+}
+
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  border: 2px solid black;
+
+
+
+}

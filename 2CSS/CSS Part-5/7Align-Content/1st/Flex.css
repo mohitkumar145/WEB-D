@@ -1,0 +1,33 @@
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+   
+    align-content: flex-end;
+     align-content: center;
+    /* Now Check For column your Self */
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+
+    height: 70px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+}

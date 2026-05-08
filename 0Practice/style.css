@@ -1,0 +1,12 @@
+.red-box {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at 35% 30%, #ff5555, #cc0000);
+    border-radius: 0 0 100% 0;
+    /* ek corner round */
+}
+
+
+
+
+

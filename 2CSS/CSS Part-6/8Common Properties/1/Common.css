@@ -1,0 +1,111 @@
+
+
+/* CNO 1 For Horizontal */
+
+.Cntainer {
+    width: 600px;
+    height: 500px;
+
+    background-color: skyblue;
+    display: flex;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-gap: 10px;
+    justify-items: start;
+    justify-items: end;
+    justify-items:center;
+
+
+}
+
+
+.iem {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.Oe {
+
+    justify-self: end;
+
+}
+
+
+/* CNO 2 For Vertical */
+
+.Cotainer {
+    width: 600px;
+    height: 500px;
+
+    background-color: skyblue;
+    display: flex;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-gap: 10px;
+    align-items: start;
+    align-items: end;
+    align-items:center;
+
+
+}
+
+
+.itm {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.Oe {
+
+    align-self: end;
+
+}
+
+/* CNO 3 For Both */
+
+.Container {
+    width: 600px;
+    height: 500px;
+
+    background-color: skyblue;
+    display: flex;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-gap: 10px;
+    place-items: center;
+    
+
+}
+
+
+.item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.One {
+
+ place-self: end;
+
+
+}
+
+

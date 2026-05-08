@@ -1,0 +1,11 @@
+#t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    color: white;
+
+}

@@ -1,0 +1,46 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}
+
+#orange {
+    flex-grow: 1;
+    /* flex-basis: 50px; */
+    /* max-width: 350px; */
+     max-width: 350px;
+
+}
+#blue {
+    flex-grow: 1;
+    flex-grow: 2;
+    flex-grow: 4;
+    /* Orange ka width ka 4 guna */
+    /* limititaion */
+    /* max-width: 350px; */
+    min-width: 400px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+}

@@ -1,0 +1,110 @@
+/* Code No 1 */
+/* code no 2 height 300px */
+
+
+/* For Row */
+
+
+.ontainer {
+  width: 600px;
+  height: 1000px;
+  /* height: 300px; */
+
+  background-color: skyblue;
+  display: grid;
+
+  grid-template-rows: 100px 100px 100px;
+  /* grid-template-rows: 70px 70px 70px 70px;
+  grid-template-rows: 60px 60px 60px 60px 60px; */
+}
+
+.itm {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+
+/* Code No 3(For Columns)*/
+
+.cntainer {
+  width: 600px;
+  height: 1000px;
+  height: 300px;
+  background-color: skyblue;
+  display: grid;
+
+  /* Three Columns */
+  grid-template-columns: 100px 100px 100px 100px 100px;
+
+  /* Four Columns Tracks */
+/* 
+  grid-template-columns: 70px 70px 70px 70px; */
+
+  /* FIve CLMNS Tracks */
+
+  /* grid-template-columns: 60px 60px 60px 60px 60px; */
+
+}
+
+.itm {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+
+/* Code nO 4 */
+
+.container {
+  width: 600px;
+  height: 1000px;
+  height: 300px;
+
+  background-color: skyblue;
+  display: grid;
+
+  grid-template-rows: auto;
+  /* grid-template-columns: auto auto auto auto; */
+
+}
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+
+/* Code No 5 */
+
+
+.Cotainer {
+  width: 600px;
+  height: 500px;
+
+  background-color: skyblue;
+  display: flex;
+  display: grid;
+
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-columns: 200px 200px 200px;
+
+}
+
+.iem {
+  /* width: 100px;
+    height: 50px; */
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+
+}

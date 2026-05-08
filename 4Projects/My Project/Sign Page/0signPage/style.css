@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #575eb3;
+}
+
+
+.container {
+    background-color: #fff;
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    left: 38%;
+    top: 28%;
+    border-radius: 20px;
+    /* padding: 4rem; */
+
+}
+
+h1 {
+    background-color: #fff;
+    font-size: 1.6rem;
+    width: 10px;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+}
+
+.username {
+    background-color: #fff;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin: -2rem 0 0 0;
+    /* border: 2px solid #000; */
+}
+
+.pass {
+    margin: 0.5rem 0 0 0;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+
+.login {
+    width: 3rem;
+    margin: 0.5rem 0 0 0;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 65%;
+    left: 21.5%;
+}
+
+.login button {
+    background-color: #0064E0;
+    color: #fff;
+    border: 0;
+    border-radius: 100px;
+    width: 13rem;
+    height: 2.5rem;
+}
+
+.username label,
+.pass label {
+    background-color: #fff;
+    color: #000;
+}
+
+.username input,
+.pass input {
+    width: 13rem;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    /* text visible rahe */
+    padding: 5px;
+    border: 0.5px solid #000;
+    border-radius: 8px;
+    /* opacity: 0.3; */
+}
+
+.pass input:hover {
+    opacity: 0.8;
+
+}
+
+.username input:hover {
+    opacity: 0.8;
+
+}

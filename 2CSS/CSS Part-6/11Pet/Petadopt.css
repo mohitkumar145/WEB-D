@@ -1,0 +1,23 @@
+/* 
+.card {
+    display: inline-block;
+}
+
+img{
+    width: 600px;
+}
+h3{
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+} */
+
+
+
+.card1 img{
+    display: inline-block;
+    border: 2px solid black;
+    width: 700px;
+}

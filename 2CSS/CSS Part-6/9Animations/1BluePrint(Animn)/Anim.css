@@ -1,0 +1,20 @@
+.box {
+
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+}
+
+
+/* This is Only Animation Blue Prints */
+
+@keyframes MyAnimation {
+
+    from{font-size: 20px;
+    }
+  to {
+    font-size: 40px;
+  }
+    
+}
+

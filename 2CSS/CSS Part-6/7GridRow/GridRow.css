@@ -1,0 +1,29 @@
+.Container {
+  width: 600px;
+  height: 500px;
+  background-color: skyblue;
+  display: flex;
+  display: grid;
+ grid-template-rows: 1fr 1fr 1fr 1fr;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+
+}
+
+
+.item {
+  /* width: 100px;
+  height: 100px; */
+  background-color: greenyellow;
+  border: 2px solid black;
+  text-align: center;
+
+}
+.One{
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+
+    /* grid-row: 1/4; */
+    grid-row: 1/span 3;
+
+}

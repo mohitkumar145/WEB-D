@@ -1,0 +1,46 @@
+#container {
+    height: 600px;
+    width: 50%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-content: flex-start;
+    /* flex-wrap: wrap; */
+
+
+}
+
+
+
+#container div {
+
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: end;
+    font-size: 1.5em;
+
+}
+
+
+#Orange {
+  flex-basis:100px;
+
+    align-self: flex-start;
+
+}
+
+#blue {
+
+    flex-grow: 1;
+    width: 70px;
+
+}
+
+h1 {
+    text-align: center;
+}

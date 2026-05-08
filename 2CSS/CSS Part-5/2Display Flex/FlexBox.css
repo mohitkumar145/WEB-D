@@ -1,0 +1,70 @@
+#cotainer {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Code No 2 */
+
+#container div{
+
+    height: 245px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+/* 
+upar ke pura code me element apne parent cotainer se bahar aa rhe hai 
+ise parent container ke andr fit krne ke liye we use fLex
+(display:flex) */
+
+
+ #container {
+    height: 900px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    /* By Default its in Row */
+    flex-direction: column;
+
+    /* displayflex child element par limit lgaTA HIA KI APNE 
+    PARENT element kle andar hi rhe 
+    by Default fit in row direnc*/
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#contaner div{
+
+    height: 100px;
+   
+
+    /* agar height 30px hui to sakba hight 20px hi hoga */
+  /* height: 30px;
+ */
+
+
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+
+
+}
+
+

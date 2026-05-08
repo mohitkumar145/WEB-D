@@ -1,0 +1,80 @@
+dv {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3PX SOLID black;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+
+staic{
+
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+
+/*since ye oehle se hi static posn me hai so it 
+    does not change its locn. */
+}
+
+abolute{
+
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+
+/* Code No 2 */
+
+
+/* For Another Concept */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3PX SOLID black;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+
+#static {
+
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+
+    /* since ye oehle se hi static posn me hai so it 
+    does not change its locn. */
+}
+
+
+#relative {
+
+    background-color: yellow;
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+}
+
+
+#absolute {
+
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}

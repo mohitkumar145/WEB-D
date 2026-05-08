@@ -1,0 +1,17 @@
+#div1{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    /* same in hexadecimal */
+    background-color: #ff000080;
+    background-color: #ffff8f14;
+    
+
+}
+#div2{
+
+    background-color: green;
+    opacity: 0;
+    /* opacity na keval element wo color par bhi apply hota hai */
+}

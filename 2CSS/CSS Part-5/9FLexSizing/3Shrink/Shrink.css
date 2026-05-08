@@ -1,0 +1,40 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* check for column */
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+
+
+}
+
+#Orange {
+    flex-shrink: 5;
+
+    /* Ki change nhi aayeg coz 
+    shrink ka effectv ham tabhi dekh 
+    sakte hai jab size over floew ho 
+    
+    so witdh 50 to 300px*/
+}
+#blue {
+  flex-shrink: 4;
+    text-align: center;
+}
+
+#container div {
+
+    height: 100px;
+    /* width: 50px; */
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+}

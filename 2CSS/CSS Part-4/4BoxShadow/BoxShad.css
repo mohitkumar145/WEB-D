@@ -1,0 +1,10 @@
+div {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2PX 2.5PX 8PX violet;
+    box-shadow: 2PX 2PX 8PX black;
+
+}

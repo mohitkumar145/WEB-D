@@ -1,0 +1,55 @@
+.playback-bar {
+    width: 800px;
+    height: 900px;
+    background-color: black;
+
+}
+
+/* 
+.progress-bar{
+    background-color: black;
+
+    appearance: none;
+} */
+
+
+.progress-bar {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    /*Jo timer arrow le jaane se thumb ho ja rha isi concept se*/
+
+}
+
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+
+}
+
+
+.progress-bar::-webkit-slider-thumb {
+
+    appearance: none;
+/* 
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -5.8px; */
+
+
+}
+
+
+.progress-bar::-webkit-slider-thumb:hover {
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -5.8px;
+
+}

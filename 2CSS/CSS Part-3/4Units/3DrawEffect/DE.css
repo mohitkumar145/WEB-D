@@ -1,0 +1,25 @@
+section{
+    font-size: 30px;
+}
+
+
+div{
+    font-size: 2em;
+
+    /* 0.5em wale me apne parent se small se hotab jayega */
+    font-size: 0.5em;
+}
+
+/* Isko avoid krne ke liye ham cvhahte hai ki apne aprent size ke equal hi rhe  */
+
+
+
+/* 
+
+section{
+    font-size: 30px;
+}
+div{
+    font-size: 2em;
+    font-size: 2rem
+} */

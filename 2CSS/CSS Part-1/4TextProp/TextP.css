@@ -1,0 +1,76 @@
+
+h2{
+     text-align: center;
+}
+
+
+
+h3{
+    text-align: right;
+    border: SOLID;
+    width:50%;
+
+}
+p{
+    text-align: center;
+}
+h4{
+    align-items: justify;
+}
+
+/* Font Weight Css */
+
+h2{
+    /* font-weight: normal; */
+    /* or 400 */
+     font-weight: 400;
+}
+p{
+   /* for bold */ 
+   font-weight: 100;
+}
+
+/* iii Text - Decoration */
+
+
+
+h2{
+    text-decoration: green underline;
+}
+h1{
+    text-decoration : double red line-through;
+}
+button{
+    text-decoration: dotted overline;
+}
+a{
+    text-decoration: none;
+    
+}
+
+/* :Line Height */
+
+
+
+
+p{
+    line-height: normal;
+}
+h1{
+    line-height: 2;
+}
+
+/* Letter Spacing */
+
+
+
+h1{
+    letter-spacing: 10px;
+}
+p{
+
+    letter-spacing: normal;
+}
+h2{
+    letter-spacing: 87px;
+}

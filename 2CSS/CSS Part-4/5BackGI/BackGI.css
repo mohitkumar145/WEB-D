@@ -1,0 +1,31 @@
+div {
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2PX 2PX 8PX violet;
+    box-shadow: 2PX 2PX 8PX black;
+    background-image: url(BGI.png);
+    /* this image was already fit */
+
+
+
+}
+
+div {
+    color: white;
+    
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url(BGI2.jpg);
+    
+    /* background-size: contain;
+    background-size: cover;
+    background-size: auto; */
+
+
+}

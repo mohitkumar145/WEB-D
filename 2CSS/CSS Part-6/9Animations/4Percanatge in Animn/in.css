@@ -1,0 +1,44 @@
+.box {
+
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: fontAnimation;
+    animation-name: colorAnimation;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+@keyframes fontAnimation {
+
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
+@keyframes colorAnimation {
+
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+
+}
+

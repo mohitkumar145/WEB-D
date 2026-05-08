@@ -1,0 +1,31 @@
+.card {
+
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 10px 0px 0px;
+    padding: 5px;
+    box-shadow: 0px 4px 5px black;
+    transition: 1s;
+
+}
+
+.card:hover {
+    box-shadow: 0px 8px 10px violet;
+
+}
+
+
+.desc {
+    padding: 0 2px 0 2px;
+
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    /* 100%b means jitna parent (div) ka width hai usme 
+    image fit ho jaye */
+}

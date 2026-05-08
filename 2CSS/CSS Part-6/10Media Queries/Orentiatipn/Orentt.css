@@ -1,0 +1,30 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+
+/* Code  no 1 */
+
+@media (orientation: landscape) {
+    h1 {
+        background-color: green;
+
+    }
+    
+    div {
+        height: 200px;
+        width: 200px;
+        background-color: skyblue;
+
+    }
+
+}
+
+
+
+
+
+
+
+

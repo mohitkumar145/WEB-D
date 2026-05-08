@@ -1,0 +1,80 @@
+#outer {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 20px;
+
+}
+
+#inner {
+
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+    /* this font size relative to  its parent */
+    font-size: 0.5em;
+    /* 0.5em = 10px
+
+    /* now padding to is reltive to its self; 
+    coz padding ek propert jo element ke font size
+     ke hisaab se hi set hoti hai na ki parent*/
+
+    padding: 2em;
+    /* 2em = 2*o.5em= 2*10px=20px */
+
+}
+
+#butt1 {
+    margin: 50px;
+
+    border: 5px solid BLACK;
+    background-color: pink;
+    border-radius: 15px;
+    font-size: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#butt2 {
+    margin: 50px;
+    border: 5px solid BLACK;
+    background-color: pink;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#butt3 {
+    margin: 50px;
+    border: 5px solid BLACK;
+    background-color: pink;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#butt4 {
+    margin: 50px;
+    border: 5px solid BLACK;
+    background-color: pink;
+    border-radius: 15px;
+    font-size: 75px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/* 
+
+
+section{
+    font-size: 30px;
+}
+div{
+    font-size: 2em;
+    font-size: 2rem
+} */

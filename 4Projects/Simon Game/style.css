@@ -1,0 +1,171 @@
+/* body {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: solid 2px black;
+    margin: 15px;
+
+}
+
+.red {
+    background-color: #f00;
+}
+
+.green {
+    background-color: #0f0;
+}
+
+.blue {
+
+    background-color: #00f;
+}
+
+.yellow {
+    background-color: #ff0;
+}
+
+.flash{
+    background-color: #fff;;
+}
+
+
+.flash2{
+    background-color:aqua;
+}
+
+
+
+ */
+
+/* 
+* {
+    background-color: #000;
+} */
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+.container {
+
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn {
+
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    types: button;
+
+}
+
+.red {
+    background-color: #f00;
+    border-radius: 20px;
+    border-bottom-right-radius: 200px;
+
+}
+
+.green {
+    background-color: #0f0;
+    border-radius: 20px;
+    border-bottom-left-radius: 200px;
+
+}
+
+.blue {
+    background-color: #00f;
+    border-radius: 20px;
+    border-top-right-radius: 200px;
+
+}
+
+
+.yellow {
+    background-color: #ff0;
+    border-top-left-radius: 200px;
+
+}
+
+.start {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    background-color: silver;
+    position: absolute;
+    top: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    types: button;
+
+}
+
+
+.stop {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    background-color: silver;
+    position: absolute;
+    top: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    types: button;
+
+}
+
+
+
+.para {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+.flash {
+    background-color: #fff;
+
+}

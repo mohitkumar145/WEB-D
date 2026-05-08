@@ -1,0 +1,58 @@
+/* Nmaed Color */
+
+
+
+h2{
+    color: magenta;
+
+}
+
+
+/* RGB */
+
+
+
+
+h2{
+    color:rgb(0,255,0);
+
+}
+h1{
+     color:rgb(255,0,0);
+}
+p{
+ color:rgb(255,255,0);
+
+}
+button{
+    color:rgb(255,255,255);
+    background-color: rgb(0,0,0);
+}
+
+
+/* Hex Dec */
+
+
+
+
+h2{
+    color:#00ff00;
+
+}
+h1{
+     color:#ff0000;
+}
+p{
+ color:#ffff00;
+
+}
+button{
+    color:#ffffff;
+    background-color:#000000;
+}
+input{
+    color:#fff;
+    background-color: #0f0;
+
+
+}

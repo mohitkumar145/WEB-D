@@ -1,0 +1,47 @@
+ /*div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition-duration: 2s;
+    transition-delay: 1.5s;
+
+    Jaise hi hover karenge pehle 1s delay AREGA phir chalega 
+} */
+
+
+ /* For Time Function see MDN */
+
+
+
+ /* div:hover{
+    background-color: red;
+    border-radius: 50%;
+} */
+
+
+ /* This Is for Transn Shorthand */
+
+
+ div {
+     height: 200px;
+     width: 200px;
+     background-color: green;
+     margin: 0 auto;
+     margin-top: 10px;
+     /* transition: margin-top 2s ease-in 1s; */
+     /* animation-timing-function: steps(5, end); */
+
+
+
+ }
+
+ div:hover {
+     margin-top: 400px;
+     background-color: red;
+     border-radius: 50%;
+     transition: 5s steps(5, end) 0.5s;
+
+
+     transition: 5s steps(5, start) 0.5s;
+    
+ }

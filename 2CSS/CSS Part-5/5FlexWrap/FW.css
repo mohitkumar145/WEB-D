@@ -1,0 +1,39 @@
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   flex-direction: row;
+    /* flex-wrap: nowrap;
+
+     no change coz nowrap ka matlab hi hot hai;
+     ki agr elemnmts apne origi9nal width / height
+     nhi hio rha hai to use choota karke usi line me
+     rakhenge */
+
+       flex-wrap: wrap;
+
+       Flex-wrap: wrap-reverse;
+
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+
+
+}
